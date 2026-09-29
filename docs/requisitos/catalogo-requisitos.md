@@ -283,7 +283,7 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | NFR-02 | NFR-R (Despliegue) | La plataforma se desplegará en una infraestrcutura en la nube gestionada por un provedor extremo | G | - | - | - |
 | NFR-03 | NFR-R (Restricciones presupuestarias y de gestión) | El desarrollo de la plataforma debe completarse en un plazo de seis meses desde la fecha de inicio del proyecto | G | - | - | Vigente |
 | NFR-04 | NFR-R (Restricciones presupuestarias y de gestión) | El proyecto tiene un presupuesto limitado de 90.000 €, que debe cubrir el desarrollo, diseño, pruebas e implementación inicial de la plataforma | G | - | - | Vigente |
-| NFR - 05 | NFR-R (Restricciones) | La plataforma trata datos personales y puede tratar datos de salud con una protección reforzada contando como marco de referencia el Reglamento General de Protección de Datos (RGPD) y, en España, la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales. | G | - | - | - |
+| NFR - 05 | NFR-R (Restricciones) | La plataforma debe cumplir  el Reglamento General de Protección de Datos (RGPD) y, en España, la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales. | G | - | - | - |
 | NFR-06 | NFR-Q (Integridad) | El sistema debe realizar al menos una copia de seguridad diaria de la información de salud y recetas | G | - | Se comproborá mediante una prueba de restauración al menos una vez cada tres meses | Vigente |
 
 Categorías y atributos: 
