@@ -41,7 +41,7 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 
 | Identificador | Nombre | Objetivo | Participantes |
 | --- | --- | --- | --- |
-|05| Gestionar perfil | Gestiobar los datos personales y preferencias de la cuenta propia | Actor principal: Usuario registrado. No se identifica  actor de apoyo para este caso. |
+|05| Gestionar perfil | Gestionar los datos personales y preferencias de la cuenta propia | Actor principal: Usuario registrado. No se identifica  actor de apoyo para este caso. |
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
