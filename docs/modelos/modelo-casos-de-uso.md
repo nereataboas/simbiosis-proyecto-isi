@@ -42,6 +42,8 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 | Identificador | Nombre | Objetivo | Participantes |
 | --- | --- | --- | --- |
 |05| Gestionar perfil | Gestionar los datos personales y preferencias de la cuenta propia | Actor principal: Usuario registrado. No se identifica  actor de apoyo para este caso. |
+| 01 | Crear recetas | Crear recetas en la plataforma incluyendo detalles para compartir | Actor principal: Usuario registrado. Actor de apoyo: Comunidad |
+| 02 | Crear cuenta | Crear una cuenta en estado pendiente de activación | Actor principal: Usuario. No se identifica actor de apoyo |
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
@@ -99,8 +101,9 @@ En E1 basta con un respaldo breve del diagrama. La tabla permite ampliar la traz
 
 | Elemento del modelo | UR y FR de referencia | NFR pertinentes | Relación con los requisitos |
 | --- | --- | --- | --- |
-| Uc-05 Gestionar perfil | UR-05; FR-19 | NFR-010 G | FR-019 Permite modificar datos personales y preferencias, pero excluye alias y correo. NFR-010condiciona la accesibilidad de esta función |
-
+| UC-05 Gestionar perfil | UR-05; FR-19 | NFR-010 G | FR-019 Permite modificar datos personales y preferencias, pero excluye alias y correo. NFR-010 condiciona la accesibilidad de esta función |
+| UC-01 Crear receta | UR-06; FR-054 | NFR-04 G | FR-054 Permite crear nuevas recetas mediante un formulario dedicado. NFR-04 Condiciona la cantidad de recetas subidas por tiempo |
+| UC-02 Crear cuenta | UR-01; FR- 01 | NFR-04 G | FR-01 Permite completar el formulario de registro y crear una cuenta en estado pendiente de activación | NFR-04 Condiciona la carga de usuarios |
 Consulta el [catálogo canónico](../requisitos/catalogo-requisitos.md) y la [SRS](../requisitos/srs.md). Si falta una condición, indica que está pendiente de aclaración. No la presentes como un requisito confirmado.
 
 ## 6 Descripciones de los casos de uso
