@@ -30,6 +30,7 @@ Registra los roles externos que participan en las funciones representadas. Un ac
 | --- | --- |
 | Usuario | Persona que interactua con Proyecto Simbiosis | 
 | Usuario registrado | Persona que dispone de una cuenta en la plataforma | 
+| Sistema | Encargado de gestionar el programa |
 
 Mantén los mismos nombres en las tablas, los diagramas y las descripciones.
 
@@ -44,6 +45,8 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 |05| Gestionar perfil | Gestionar los datos personales y preferencias de la cuenta propia | Actor principal: Usuario registrado. No se identifica  actor de apoyo para este caso. |
 | 01 | Crear recetas | Crear recetas en la plataforma incluyendo detalles para compartir | Actor principal: Usuario registrado. Actor de apoyo: Comunidad |
 | 02 | Crear cuenta | Crear una cuenta en estado pendiente de activación | Actor principal: Usuario. No se identifica actor de apoyo |
+| 03 | Introducir alias | Introducir manuelamente un alias distinto en el caso de que el alias solicitado este ocupado | Actor principal: usuario. No se identifica actor de apoyo |
+| 04 | Impedir finalizar registro | Impedir finalizar el registro si alguna de las casillas de aceptación no está marcada | Actor principal: sistema. No se identifica actor de apoyo
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
