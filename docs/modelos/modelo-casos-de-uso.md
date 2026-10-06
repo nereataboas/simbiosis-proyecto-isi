@@ -28,7 +28,8 @@ Registra los roles externos que participan en las funciones representadas. Un ac
 
 | Nombre del actor | Rol que representa |
 | --- | --- |
-| [Nombre] | [Describe el rol externo.] |
+| Usuario | Persona que interactua con Proyecto Simbiosis | 
+| Usuario registrado | Persona que dispone de una cuenta en la plataforma | 
 
 Mantén los mismos nombres en las tablas, los diagramas y las descripciones.
 
@@ -40,7 +41,7 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 
 | Identificador | Nombre | Objetivo | Participantes |
 | --- | --- | --- | --- |
-| [UC-…] | [Nombre] | [Explica el objetivo.] | [Indica los actores que participan.] |
+|05| Gestionar perfil | Gestiobar los datos personales y preferencias de la cuenta propia | Actor principal: Usuario registrado. No se identifica  actor de apoyo para este caso. |
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
@@ -98,7 +99,7 @@ En E1 basta con un respaldo breve del diagrama. La tabla permite ampliar la traz
 
 | Elemento del modelo | UR y FR de referencia | NFR pertinentes | Relación con los requisitos |
 | --- | --- | --- | --- |
-| [Caso, actor o relación] | [Identificadores] | [Identificadores, si procede] | [Explica qué respaldan o condicionan.] |
+| Uc-05 Gestionar perfil | UR-05; FR-19 | NFR-010 G | FR-019 Permite modificar datos personales y preferencias, pero excluye alias y correo. NFR-010condiciona la accesibilidad de esta función |
 
 Consulta el [catálogo canónico](../requisitos/catalogo-requisitos.md) y la [SRS](../requisitos/srs.md). Si falta una condición, indica que está pendiente de aclaración. No la presentes como un requisito confirmado.
 
