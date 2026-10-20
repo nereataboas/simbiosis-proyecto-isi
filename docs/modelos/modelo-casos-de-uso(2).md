@@ -234,8 +234,8 @@ Usuario tiene una sesión iniciada
 **Inicio:** Usuario solicita actualizar su perfil.
 
 **Escenario principal de éxito:** 
-1.El usuario indica que quiere modificar los datos.
-2.El sistema presenta los datos actuales y distingue los que se pueden modificar de los que no.
+1. El usuario indica que quiere modificar los datos.
+2. El sistema presenta los datos actuales y distingue los que se pueden modificar de los que no.
 3. El usuario modifica los valores permitidos.
 4. Usuario solicita guardar los ccaambios
 5. Se verifica que los datos modficados son válidos
